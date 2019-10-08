@@ -1,3 +1,7 @@
+#kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/static/provider/cloud-generic.yaml -> It will create a Ingress Controller. It is responsible for converting the Ingress object into Nginx configuration
+
+#https://itnext.io/kubernetes-ingress-controllers-how-to-choose-the-right-one-part-1-41d3554978d2
+
 # / -> Client
 # /api -> Server
 #Annotations: Additional configurational options that are going to specify higher level configuration around the ingress object
